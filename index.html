@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nutricionista Mariana Gamino</title>
+    <title>Nutricionista Mariana Gamino - Pelotas/RS</title>
     <meta name="description" content="Nutricionista Mariana Gamino oferece serviços de nutrição em Pelotas (RS) e online, com foco em emagrecimento e saúde. Agende sua consulta hoje e comece sua jornada para uma vida mais saudável.">
     <meta name="keywords" content="nutricionista, Mariana Gamino, alimentação saudável, dieta, nutricionista em Pelotas, nutricionista online, atendimento online, emagrecer, emagrecer online">
     <meta name="author" content="Mariana Gamino">
@@ -17,33 +17,77 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
     <script src="scripts.js"></script>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": ["Person","DietNutrition"],
+          "name": "Mariana Gamino",
+          "url": "https://www.marianagamino.com.br",
+          "image": "https://marianagamino.com.br/imagens/bg1.png",
+          "sameAs": [
+            "https://www.instagram.com/nutrimarianagamino/",
+            "https://www.marianagamino.com.br",
+            "https://www.facebook.com/nutrimarianagamino/"
+          ],
+          "jobTitle": "Nutricionista" 
+          "@id": "https://marianagamino.com.br",
+          "url": "https://marianagamino.com.br",
+          "telephone": "+55 51 9253-9661",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Deodoro, 1205 A",
+            "addressLocality": "Pelotas",
+            "addressRegion":"Rio Grande do Sul",
+            "postalCode": "96020-220",
+            "addressCountry": "BR"
+          }   
+        }
+        </script>
 </head>
 <body>
     <main>
         <section id="banner">
             <header>
                 <h1>Mariana Gamino</h1>
-                <p class="black" id="strong">Nutricionista</p>
+                <p class="black" id="strong">NUTRIÇÃO ESPORTIVA E EMAGRECIMENTO</p>
                 <p class="black">CRN2 13310</p>
             </header>
             <div>
+                <img src="novas_imagens/inicio.jpeg" alt="Mariana Gamino" style="width: 500px;"> <!--Ajustar tamanho imagem-->
                 <p class="black" id="cham">
-                    Você na sua <span id="c" class="yellow">melhor</span><br>versão!
-                </p>
+                    Acredito que todas as pessoas merecem <span id="c" class="yellow">realizar seus objetivos</span> sem precisar perder saúde! <span id="c" class="yellow">Você na sua melhor versão integralmente!</span>
+
+                    Eu sou <span id="c" class="yellow">Mariana Gamino</span> e nos últimos 12 anos eu entrego resultados, com uma abordagem única e totalmente individualizada.
+
+                    E também posso ajudar você, que busca um resultado estético, desempenho e qualidade de vida!</p>
             </div>
         </section>
         <section class="solida">
-            <h2>Quer um Protocolo pensado especialmente para você?</h2>
-            <p class="white">Faça a sua <span class="black">Consulta de Avaliação</span> e eu vou criar um Protocolo focado nos <span class="black">seus objetivos</span>.</p>
             <div>
-                <img id="serv1" class="serv1" src="imagens/serv1.png" alt="Atendimento presencial" onclick="verificar('mens1')">
-                <p id="mens1" class="mobmsg1">Avaliação física (pele, cabelo, unhas, dobras cutâneas, bioimpedância e perímetros), avaliação nutricional, avaliação de exames, avaliação de suplementação, anamnese com histórico de saúde e hábitos, realização de questionários de rastreamento metabólico e microbiota.</p>
-                <img id="serv1" class="pcserv1" src="imagens/serv1.png" alt="Atendimento presencial" onclick="verificar('mens3')">
-                <img id="serv2" class="serv2" src="imagens/serv2.png" alt="Atendimento online" onclick="verificar('mens2')">
-                <p id="mens3" class="pcmens1">Avaliação física (pele, cabelo, unhas, dobras cutâneas, bioimpedância e perímetros), avaliação nutricional, avaliação de exames, avaliação de suplementação, anamnese com histórico de saúde e hábitos, realização de questionários de rastreamento metabólico e microbiota.</p>
-                <p id="mens2">Avaliação física por fotos e medidas, avaliação nutricional, avaliação de exames, avaliação de suplementação, anamnese com histórico de saúde e hábitos, realização de questionários de rastreamento metabólico e microbiota.</p>
+                <img id="serv1" class="serv1" src="imagens/serv1.png" alt="Atendimento presencial">
+                
+                <img id="serv2" class="serv2" src="imagens/serv2.png" alt="Atendimento online">
+
+                <img id="serv2" class="serv2" src="imagens/serv2.png" alt="Atendimento online">
+                
             </div>
         </section>
+
+        <section class="solida">
+            <h1 id="agende">Como podemos lhe ajudar?</h1>
+            <p>Ficou interessada em saber como funcionam os nossos tratamentos, preços e tipos de atendimento?
+
+                Clique no botão abaixo e solicite uma avaliação do seu caso e tenha todas essas respostas.
+            </p>
+            
+            <div id="bot">
+                <div id="btn">
+                    <a href="https://wa.me/555192539661?text=Quero%20saber%20mais%20sobre%20a%20consulta%20de%20avaliação!" target="_blank"><i class="bi bi-whatsapp"></i> Eu quero saber mais sobre a Consulta de Avaliação</a>
+                </div>
+                <br><br><br>
+            </div>
+        </section>
+
         <section id="branca">
             <h2>O que meus pacientes acham do meu método</h2>
             <div class="carousel-container">
@@ -65,17 +109,7 @@
                 </a>
             </div>
         </section>
-        <section class="solida">
-            <h2 id="agende">É possível <span class="black" id="emagrecer">emagrecer com saúde</span> e eu estou
-                pronta para te ajudar <span class="black" id="emagrecer">a realizar esse sonho</span></h2>
-            
-            <div id="bot">
-                <div id="btn">
-                    <a href="https://wa.me/555192539661?text=Quero%20saber%20mais%20sobre%20a%20consulta%20de%20avaliação!" target="_blank"><i class="bi bi-whatsapp"></i> Eu quero saber mais sobre a Consulta de Avaliação</a>
-                </div>
-                <br><br><br>
-            </div>
-        </section>
+        
         <section id="banner2">
             <h2>Quem sou eu</h2>
             <div id="quem">
