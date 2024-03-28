@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+
+/*tiny*/
+@media screen and (max-width: 355px) {
+    section#banner2 {
+        background: var(--corMarrom) url("../imagens/bg_mobile3.png") no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 900px;
+    }
+    header>h1{
+        font-size: 3em;
+        line-height: 0.8em;
+        padding-top: 0.5em;
+    }
+    p#cham{
+        font-size: 2.5em;
+    }
+    section.solida>h2,section.solida>h3{
+        font-size: 1.8em;
+    }
+    section#branca>h2,section#banner2>h2{
+        font-size: 2.5em;
+    }
+    section.solida>p#email,section.solida>p{
+        font-size: 1em;
+    }
+    section#banner2>div#insta>a{
+        font-size: 1em;
+    }
+    section.solida>div>img{
+        width: 14em;
+        height: 14em;
+    }
+}
+
+/*tablets*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    section#banner {
+        background-image: url("../imagens/bg_tablet1.png");   
+    }
+
+    section#banner2 {
+        background: var(--corBranco) url("../imagens/bg_tablet2.png") no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    section#banner2>div#quem>p{
+        font-size: 1.3em;
+        line-height: 0.8em;
+        margin-bottom: 0em;
+    }
+}
+/*laptops e mais*/
+@media screen and (min-width: 769px){
+    section#banner {
+        background-image: url("../imagens/bg1.png");
+    }
+    section#banner2 {
+        background: var(--corBranco) url("../imagens/bg2.png") no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    header {
+        margin-left: 2em;
+    }
+    header>h1 {
+        text-align: left;
+    }
+    header>p {
+        text-align: left;
+    }
+    section#banner>div{
+        width: 50%;
+        text-align: left;
+    }
+    p#cham {
+        text-align: center;
+        font-size: 4em;
+        margin-left: 0.8em;
+        margin-top: 1.2em;
+    }
+    section#banner2>h2{
+        text-align: left;
+    }
+    section#banner2>div#quem{
+        width: 60%;
+        margin-left: 2em;
+    }
+    section#banner2>div#quem>p{
+        font-size: 1.4em;
+        line-height: 1em;
+    }
+    section#banner2>div#insta{
+        left: 5%;
+        width: auto;
+    }
+    .mobmsg1, .serv1{
+        display: none;
+    }
+    #mens3 {
+        display: none;
+    }
+    .pcserv1{
+        display: inline;
+    }
+}
