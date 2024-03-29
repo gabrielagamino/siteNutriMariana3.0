@@ -46,8 +46,8 @@ p.black {
 p.white{
     color: var(--corBranco);
 }
-span.white{
-    color: var(--corBranco);
+span.green{
+    color: var(--corPreto);
 }
 
 h2{
@@ -91,8 +91,9 @@ section.solida>p{
 section#servicos>div{
     text-align: center;
 }
-section#servicos>div>p{
+section#servicos>div>h2{
     font-size: 2em;
+    color: var(--corVerde);
 }
 section#servicos>div>img{
     border-radius: 50%;
@@ -117,7 +118,8 @@ section.solida>div#bot>div#btn {
     border-radius: 1em;
     padding: 0.5em;
     width: 70%;
-    box-shadow: rgba(0, 0, 0, 0.219) -4px 4px 0px;    
+    box-shadow: rgba(0, 0, 0, 0.219) -4px 4px 0px;
+    text-align: center;   
 }
 section.solida>div#bot>div#btn:hover {
     background-color: #0bec5e;
@@ -127,7 +129,8 @@ section.solida>div#bot>div#btn:hover {
 section.solida>div#bot>div#btn>a{
         text-decoration: none;
         color: white;
-        line-height: 0.1em; 
+        line-height: 0.1em;
+        margin: auto;
 }
 section.solida>h2#agende{
     font-size: 2.5em;
@@ -136,10 +139,6 @@ section.solida>h2#agende{
     text-shadow: rgba(0, 0, 0, 0.473) 2px 2px 10px;
     margin: 0.4em 0.2em;
     padding-top: 1em;   
-}
-section.solida>h2>span#emagrecer{
-    font-family: 'Francois One', sans-serif;
-    font-size: 1em;
 }
 
 /*Depoimentos*/
@@ -188,6 +187,48 @@ section#branca>div>img{
 img#autoridade{
     width: 100%;
 }
+
+section#branca>p.black{
+    font-size: 1.5em;
+    text-align: justify;
+    margin: 0em 1em 1em 1em;
+}
+
+section#branca>h2#traj{
+    margin-top: 1.5em;
+}
+
+section#branca>div#bot>{
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-bottom: 1em;   
+}
+section#branca>div#bot>div#btn {
+    display: block;
+    margin: auto;
+    font-size: 1.5em;
+    line-height: 1em;
+    background-color: var(--corAmarelo);
+    border-radius: 1em;
+    padding: 0.5em;
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.219) -4px 4px 0px;
+    text-align: center;   
+}
+section#branca>div#bot>div#btn:hover {
+    background-color: #f59301;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+section#branca>div#bot>div#btn>a{
+        text-decoration: none;
+        color: white;
+        line-height: 0.1em;
+        margin: auto;
+}
+
+
 
 
 /*Onde estou*/
