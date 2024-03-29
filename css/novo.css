@@ -46,6 +46,18 @@ p.black {
 p.white{
     color: var(--corBranco);
 }
+span.white{
+    color: var(--corBranco);
+}
+
+h2{
+    font-weight: 400;
+    font-size: 3em;
+    text-align: center;
+    color: var(--corBranco);
+    text-shadow: rgba(0, 0, 0, 0.473) 2px 2px 10px;
+    margin: 0.4em 0.2em;   
+}
 
 /*Cabeçalho*/
 header>h1 {
@@ -64,10 +76,76 @@ header>p#strong{
     font-weight: bold;
 }
 
+img#inicio{
+    width: 100%;
+}
+
+section.solida>p{
+    font-size: 1.5em;
+    text-align: justify;
+    margin: 0em 1em 1em 1em;
+
+}
+
+/*Servicos*/
+section#servicos>div{
+    text-align: center;
+}
+section#servicos>div>p{
+    font-size: 2em;
+}
+section#servicos>div>img{
+    border-radius: 50%;
+    width: 16em;
+    height: 16em;
+    margin: 1em;
+}
+
+/*Chama no zap*/
+section.solida>div#bot>{
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-bottom: 2em;   
+}
+section.solida>div#bot>div#btn {
+    display: block;
+    margin: auto;
+    font-size: 1.7em;
+    line-height: 1em;
+    background-color: var(--corVerdeZap);
+    border-radius: 1em;
+    padding: 0.5em;
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.219) -4px 4px 0px;    
+}
+section.solida>div#bot>div#btn:hover {
+    background-color: #0bec5e;
+    transform: scale(1.09);
+    cursor: pointer;
+}
+section.solida>div#bot>div#btn>a{
+        text-decoration: none;
+        color: white;
+        line-height: 0.1em; 
+}
+section.solida>h2#agende{
+    font-size: 2.5em;
+    text-align: center;
+    color: var(--corBranco);
+    text-shadow: rgba(0, 0, 0, 0.473) 2px 2px 10px;
+    margin: 0.4em 0.2em;
+    padding-top: 1em;   
+}
+section.solida>h2>span#emagrecer{
+    font-family: 'Francois One', sans-serif;
+    font-size: 1em;
+}
+
 /*Depoimentos*/
 section#branca>h2{
     font-weight: 400;
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
     color: var(--corVerde);
     text-shadow: rgba(0, 0, 0, 0.473) 2px 2px 10px;
@@ -106,6 +184,11 @@ section#branca>div>img{
 .carousel-control-next-icon {
      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
+/*Quem é*/
+img#autoridade{
+    width: 100%;
+}
+
 
 /*Onde estou*/
 section.solida>h3{
