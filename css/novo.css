@@ -141,6 +141,44 @@ section.solida>h2#agende{
     padding-top: 1em;   
 }
 
+/*Atendimento*/
+section.solida>h2#aten{
+    font-size: 2.5em;
+    text-align: center;
+    color: var(--corBranco);
+    text-shadow: rgba(0, 0, 0, 0.473) 2px 2px 10px;
+    margin: 0em 0.1em;
+    padding-top: 1em;   
+}
+
+section.solida>div{
+    text-align: center;
+    
+}
+section.solida>div>img{
+    border-radius: 50%;
+    width: 16em;
+    height: 16em;
+    margin: 1em;
+}
+section.solida>div>img:hover{
+    cursor: pointer;
+    scale: 1.09;
+}
+#mens1, #mens2, #mens3{
+    display: none;
+    background-color: var(--corBranco);
+    border: 1em solid var(--corMarrom);
+    border-radius: 2em;
+    padding: 0.3em;
+    margin: 0.5em;
+    animation: none;
+}
+.pcmens1, .pcserv1 {
+    display: none;
+}
+
+
 /*Depoimentos*/
 section#branca>h2{
     font-weight: 400;
@@ -306,3 +344,18 @@ section#priv>p,h2{
     margin: 0;
     padding: 0.8em;
 }
+/*Botão zap solto*/
+a#botaosolto{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index:1000;
+  }
