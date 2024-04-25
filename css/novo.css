@@ -178,6 +178,42 @@ section.solida>div>img:hover{
     display: none;
 }
 
+@media screen and (min-width: 769px){
+    .mobmsg1, .serv1{
+        display: none;
+    }
+    #mens3 {
+        display: none;
+    }
+    .pcserv1{
+        display: inline;
+    }
+}
+
+/*Animações*/
+@keyframes entrando {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-1em);
+	}
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
+@keyframes saindo {
+	0% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(-1em);
+        display: none;
+	}
+}
+
 
 /*Depoimentos*/
 section#branca>h2{
